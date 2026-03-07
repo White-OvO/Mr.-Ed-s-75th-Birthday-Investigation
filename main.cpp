@@ -224,8 +224,41 @@ cout << "Was Mr. Brown seen near the hallway/bathroom area? (1/0): " << endl;
 cout << "Was Mr. Brown on a confirmed phone call at that time (verified alibi)? (1/0): " << endl; 
 cout << "Were Mr. Brown's fingerprints found on the bathroom door handle? (1/0): " << endl; 
 cout << "\n" << endl;
+// parker violin 
 cout << setfill('=') << setw(28) << "=" << endl;
 cout << "Suspect 2: Parker (Violin Teacher)" << endl;
 cout << setfill('=') << setw(28) << "=" <<endl;
+cout << "Did Mr. Ed owe Parker unpaid lesson fees? (1/0): " << endl; 
+cout << "Was violin music heard outside at the time (possible alibi)? (1/0): "<< endl; 
+cout << "Was Parker seen leaving the backyard gate around that time? (1/0): "<< endl; 
+cout << "Were Parker's fingerprints found on the bathroom mirror? (1/0): "<< endl; 
+cout << "\n "<< endl; 
+//college buddy
+cout << setfill('=') << setw(28) << "=" << endl;
+cout << "Suspect 3: Mark (College Buddy)" << endl;
+cout << setfill('=') << setw(28) << "=" <<endl;
+cout << "Did Mr. Ed refuse Mark a loan today? (1/0) :" << endl; 
+cout << "Did Mark drink too much at the party? (1/0) :" << endl; 
+cout << "Was Mark seen near the bathroom area? (1/0) :" << endl; 
+cout << "Did the nurse confirm Mark stayed with the group (verified alibi)? (1/0) :" << endl; 
+cout << "Were Mark's fingerprints found on the bathroom cabinet? (1/0) :" << endl; 
+// Dayan 
+cout << setfill('=') << setw(28) << "=" << endl;
+cout << "Suspect 4: Dayan (Chess Partner)" << endl;
+cout << setfill('=') << setw(28) << "=" <<endl;
+cout << "Did Dayan lose a chess match to Mr. Ed today? (1/0): " << endl; 
+cout << "Was Dayan visibly angry/competitive about losing? (1/0): " << endl; 
+cout << "Was Dayan seen near the bathroom area? (1/0): " << endl; 
+cout << "Was Dayan confirmed to be streaming online at the time (verified alibi)? (1/0): " << endl; 
+cout << "Were Dayan's fingerprints found on the bathroom faucet? (1/0): " << endl; 
+
+//Ms. Elena (Pen Friend)
+cout << setfill('=') << setw(28) << "=" << endl;
+cout << "Suspect 5: Ms. Elena (Pen Friend)" << endl;
+cout << setfill('=') << setw(28) << "=" <<endl;
+cout << "Did Mr. Ed seem shocked/uncomfortable after seeing Ms. Elena (secret (1/0): "  << endl;
+cout << "Did Ms. Elena ask Mr. Ed to talk privately? (1/0): " << endl;
+cout << "Did Ms. Elena stay with the group the whole time? (1/0): " << endl;
+cout << "Were Ms. Elena's fingerprints found on a medicine box in the bathroom? (1/0): " << endl;
     return 0; 
 }
